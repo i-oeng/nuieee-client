@@ -3,7 +3,7 @@ import { useForm, useFieldArray } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { motion } from 'framer-motion';
-import { hackathonApi } from '../../api/hackathonApi';
+import { hackathonApi } from '@/api/hackathonApi.ts';
 import { MainLayout } from '../../components/Layouts/MainLayout/MainLayout';
 
 // Validation schema
