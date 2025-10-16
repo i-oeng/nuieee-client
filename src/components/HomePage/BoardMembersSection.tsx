@@ -8,7 +8,7 @@ import altairPhotoLink from '../../assets/images/altair.jpg';
 import amirPhotoLink from '../../assets/images/amir.jpg';
 import aidanaPhotoLink from '../../assets/images/aidana.jpg';
 import sabinaPhotoLink from '../../assets/images/sabina.jpg';
-import arkenPhotoLink from '../../assets/images/arken.jpg';
+import alinurPhotoLink from '../../assets/images/alinur.png';
 import firuzaPhotoLink from '../../assets/images/firuza.jpg';
 import mishaPhotoLink from '../../assets/images/misha.jpg';
 
@@ -45,9 +45,9 @@ const boardMembers: BoardMember[] = [
         image: sabinaPhotoLink,
     },
     {
-        name: "Arken Gaisin",
+        name: "Alinur Seisekov",
         role: "web-development head",
-        image: arkenPhotoLink,
+        image: alinurPhotoLink,
     },
     {
         name: "Firuza Barayeva",
