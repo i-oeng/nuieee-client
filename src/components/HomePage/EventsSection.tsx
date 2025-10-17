@@ -60,6 +60,16 @@ export const EventsSection = () => {
                         />
                     ))}
                 </div>
+
+                {/* View All Events Button */}
+                <div className="flex justify-center mt-12">
+                    <a
+                        href="/events"
+                        className="px-8 py-4 bg-ieee-blue hover:bg-ieee-blue/90 text-white font-inter font-bold text-lg uppercase rounded-md transition-all hover:scale-105"
+                    >
+                        View All Events
+                    </a>
+                </div>
             </div>
         </section>
     );

@@ -135,7 +135,7 @@ export default function AdminEventsPage() {
                 variant="outline" 
                 onClick={() => setConfirmId(null)} 
                 disabled={!!deletingId}
-                className="border-white text-white hover:bg-white/10"
+                className="border-white text-black"
               >
                 Cancel
               </Button>
