@@ -66,62 +66,64 @@ export default function AddNewEventPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-black">
       <AdminHeader />
-      <div className="max-w-3xl mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold mb-6 text-gray-900">Add New Event</h1>
+      <div className="container mx-auto px-4 py-16 lg:py-24">
+        <h1 className="text-[clamp(60px,8vw,100px)] font-inter font-extrabold text-ieee-blue lowercase leading-none mb-12">
+          add new event
+        </h1>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="space-y-6 bg-white rounded-lg shadow p-6"
+          className="max-w-4xl space-y-8 bg-black border-2 border-white rounded-lg shadow-2xl p-8 md:p-12"
         >
           {/* Title */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-white text-xl font-inter font-semibold mb-3 uppercase">
               Title
             </label>
             <input
               type="text"
               {...form.register("title")}
-              className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full rounded-md border-2 border-white bg-black text-white px-4 py-3 text-lg font-inter focus:ring-2 focus:ring-ieee-blue focus:border-ieee-blue placeholder-white/50"
               placeholder="Amazing Engineering Talk"
             />
             {form.formState.errors.title && (
-              <p className="text-xs text-red-600 mt-1">
+              <p className="text-red-400 text-sm mt-2 font-semibold">
                 {form.formState.errors.title.message}
               </p>
             )}
           </div>
 
           {/* DateTime */}
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
-                Event Date & Time
-              </label>
-              <input
-                type="datetime-local"
-                {...form.register("eventDateTime")}
-                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-              />
-              {form.formState.errors.eventDateTime && (
-                <p className="text-xs text-red-600 mt-1">
-                  {form.formState.errors.eventDateTime.message}
-                </p>
-              )}
-            </div>
+          <div>
+            <label className="block text-white text-xl font-inter font-semibold mb-3 uppercase">
+              Event Date & Time
+            </label>
+            <input
+              type="datetime-local"
+              {...form.register("eventDateTime")}
+              className="w-full rounded-md border-2 border-white bg-black text-white px-4 py-3 text-lg font-inter focus:ring-2 focus:ring-ieee-blue focus:border-ieee-blue"
+            />
+            {form.formState.errors.eventDateTime && (
+              <p className="text-red-400 text-sm mt-2 font-semibold">
+                {form.formState.errors.eventDateTime.message}
+              </p>
+            )}
+          </div>
 
           {/* Registration Link */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-white text-xl font-inter font-semibold mb-3 uppercase">
               Registration Link (optional)
             </label>
             <input
               type="url"
               {...form.register("registrationLink")}
-              className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full rounded-md border-2 border-white bg-black text-white px-4 py-3 text-lg font-inter focus:ring-2 focus:ring-ieee-blue focus:border-ieee-blue placeholder-white/50"
               placeholder="https://"
             />
             {form.formState.errors.registrationLink && (
-              <p className="text-xs text-red-600 mt-1">
+              <p className="text-red-400 text-sm mt-2 font-semibold">
                 {form.formState.errors.registrationLink.message}
               </p>
             )}
@@ -129,17 +131,17 @@ export default function AddNewEventPage() {
 
           {/* Description */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-white text-xl font-inter font-semibold mb-3 uppercase">
               Description
             </label>
             <textarea
               rows={6}
               {...form.register("description")}
-              className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full rounded-md border-2 border-white bg-black text-white px-4 py-3 text-lg font-inter focus:ring-2 focus:ring-ieee-blue focus:border-ieee-blue placeholder-white/50"
               placeholder="Describe the event..."
             />
             {form.formState.errors.description && (
-              <p className="text-xs text-red-600 mt-1">
+              <p className="text-red-400 text-sm mt-2 font-semibold">
                 {form.formState.errors.description.message}
               </p>
             )}
@@ -147,15 +149,15 @@ export default function AddNewEventPage() {
 
           {/* Photos */}
           <div>
-            <div className="flex items-center justify-between mb-2">
-              <label className="block text-sm font-medium text-gray-700">
-                Photos (URL uploads placeholder)
+            <div className="flex items-center justify-between mb-4">
+              <label className="block text-white text-xl font-inter font-semibold uppercase">
+                Photos (URL uploads)
               </label>
               <Button
                 type="button"
                 variant="outline"
-                size="sm"
                 onClick={() => append({ alternativeText: "", photoLink: "" })}
+                className="border-ieee-blue text-ieee-blue hover:bg-ieee-blue hover:text-white font-semibold uppercase"
               >
                 Add Photo
               </Button>
@@ -164,15 +166,15 @@ export default function AddNewEventPage() {
               {fields.map((field, idx) => (
                 <div
                   key={field.id}
-                  className="border rounded-md p-3 bg-gray-50 space-y-2"
+                  className="border-2 border-white/30 rounded-md p-4 bg-black/50 space-y-3"
                 >
-                  <div className="flex gap-3">
+                  <div className="flex flex-col md:flex-row gap-3">
                     <div className="flex-1">
                       <input
                         type="url"
                         placeholder="Photo URL (uploaded blob)"
                         {...form.register(`photos.${idx}.photoLink` as const)}
-                        className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                        className="w-full rounded-md border border-white/50 bg-black text-white px-3 py-2 text-base font-inter focus:ring-2 focus:ring-ieee-blue focus:border-ieee-blue placeholder-white/40"
                       />
                     </div>
                     <div className="flex-1">
@@ -180,40 +182,44 @@ export default function AddNewEventPage() {
                         type="text"
                         placeholder="Alternative text"
                         {...form.register(`photos.${idx}.alternativeText` as const)}
-                        className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                        className="w-full rounded-md border border-white/50 bg-black text-white px-3 py-2 text-base font-inter focus:ring-2 focus:ring-ieee-blue focus:border-ieee-blue placeholder-white/40"
                       />
                     </div>
                     <Button
-                      variant="destructive"
-                      size="icon"
                       type="button"
                       onClick={() => remove(idx)}
+                      className="bg-red-600 hover:bg-red-700 text-white font-bold px-4"
                     >
-                      X
+                      ✕
                     </Button>
                   </div>
                   {form.formState.errors.photos?.[idx]?.photoLink && (
-                    <p className="text-xs text-red-600">
+                    <p className="text-red-400 text-sm font-semibold">
                       {form.formState.errors.photos[idx]?.photoLink?.message}
                     </p>
                   )}
                 </div>
               ))}
               {fields.length === 0 && (
-                <p className="text-xs text-gray-500">No photos added yet.</p>
+                <p className="text-white/60 text-base italic">No photos added yet.</p>
               )}
             </div>
           </div>
 
-          <div className="flex justify-end gap-3">
+          <div className="flex flex-col sm:flex-row justify-end gap-4 pt-6">
             <Button
               type="button"
               variant="outline"
               onClick={() => navigate("/admin/events")}
+              className="border-white text-white hover:bg-white/10 font-semibold uppercase text-lg px-8 py-3"
             >
               Cancel
             </Button>
-            <Button type="submit" disabled={form.formState.isSubmitting}>
+            <Button 
+              type="submit" 
+              disabled={form.formState.isSubmitting}
+              className="bg-ieee-blue hover:bg-ieee-blue/90 text-white font-semibold uppercase text-lg px-8 py-3"
+            >
               {form.formState.isSubmitting ? "Creating..." : "Create Event"}
             </Button>
           </div>

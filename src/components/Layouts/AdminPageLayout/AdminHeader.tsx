@@ -44,11 +44,11 @@ const AdminHeader = () => {
                     {/* Login/Logout */}
                     <div className="ml-auto">
                         {user ? (
-                            <button onClick={logout} className="text-black text-sm md:text-lg lg:text-[22px] font-bold font-inter  transition-colors">
+                            <button onClick={logout} className="text-white text-sm md:text-lg lg:text-[22px] font-bold font-inter  transition-colors">
                                 Log out
                             </button>
                         ) : (
-                            <button onClick={redirectToLoginPage} className="text-black text-sm md:text-lg lg:text-[22px] font-bold font-inter  transition-colors">
+                            <button onClick={redirectToLoginPage} className="text-white text-sm md:text-lg lg:text-[22px] font-bold font-inter  transition-colors">
                                 Log in
                             </button>
                         )}
