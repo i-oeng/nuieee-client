@@ -14,14 +14,16 @@ export function HeroSection() {
                 <img src={ieeeHeroSection} alt={'IEEE Hero Section'} />
 
                 {/* Student Branch Text */}
-                <div className="text-center mb-16">
-                    <div className="text-[30px] md:text-[50px] font-semibold uppercase leading-tight">
+                {/* ✅ CHANGED: added 'relative' to wrapper div */}
+                <div className="text-center mb-16 relative">
+                    <div className="relative text-[30px] md:text-[50px] font-semibold uppercase leading-tight inline-block text-center">
                         {/* Multiple text layers for glow effect */}
-                        <div className="absolute text-ieee-lightblue [text-shadow:0_0_4px_#2769BF,0_0_4px_#2769BF,0_0_4px_#2769BF,0_0_4px_#2769BF,0_0_4px_#2769BF,0_0_4px_#2769BF,0_0_4px_#2769BF,0_0_4px_#2769BF]">
+                        {/* ✅ CHANGED: wrapped absolute layers inside relative parent */}
+                        <div className="absolute inset-0 text-ieee-lightblue [text-shadow:0_0_4px_#2769BF,0_0_4px_#2769BF,0_0_4px_#2769BF,0_0_4px_#2769BF,0_0_4px_#2769BF,0_0_4px_#2769BF,0_0_4px_#2769BF,0_0_4px_#2769BF]">
                             Student Branch at<br />
                             Nazarbayev University
                         </div>
-                        <div className="absolute text-ieee-lightblue [text-shadow:0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57)]">
+                        <div className="absolute inset-0 text-ieee-lightblue [text-shadow:0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57),0_0_8.5px_rgba(39,105,191,0.57)]">
                             Student Branch at<br />
                             Nazarbayev University
                         </div>
