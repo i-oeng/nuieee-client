@@ -1,7 +1,6 @@
 ﻿import { Link } from "react-router-dom"
 import linkedinIcon from '../../../assets/icons/linkedin_icon.svg';
 import youtubeIcon from '../../../assets/icons/youtube_icon.svg';
-import facebookIcon from '../../../assets/icons/facebook_icon.svg';
 import instagramIcon from '../../../assets/icons/instagram_icon.svg';
 import tiktokIcon from '../../../assets/icons/tiktok_icon.svg';
 import telegramIcon from '../../../assets/icons/telegram_icon.svg';
@@ -17,13 +16,13 @@ export default function Component() {
                     <div>
                         <h3 className="text-black font-semibold mb-6 text-lg">RELATED</h3>
                         <div className="space-y-4">
-                            <Link to="#" className="block text-black underline hover:no-underline hover:text-black transition-all">
+                            <Link to="https://signalprocessingsociety.org/" className="block text-black underline hover:no-underline hover:text-black transition-all">
                                 IEEE Signal Processing Society
                             </Link>
-                            <Link to="#" className="block text-black underline hover:no-underline transition-all">
+                            <Link to="https://sites.google.com/nu.edu.kz/asp-lab" className="block text-black underline hover:no-underline transition-all">
                                 ASP-LAB Website
                             </Link>
-                            <Link to="#" className="block text-black underline hover:no-underline transition-all">
+                            <Link to="https://nu.edu.kz/" className="block text-black underline hover:no-underline transition-all">
                                 Nazarbayev University Website
                             </Link>
                         </div>
@@ -33,13 +32,13 @@ export default function Component() {
                     <div>
                         <h3 className="text-black font-semibold mb-6 text-lg">GLOBAL</h3>
                         <div className="space-y-4">
-                            <Link to="#" className="block text-black underline hover:no-underline transition-all">
+                            <Link to="https://www.ieee.org/" className="block text-black underline hover:no-underline transition-all">
                                 IEEE Official
                             </Link>
-                            <Link to="#" className="block text-black underline hover:no-underline transition-all">
+                            <Link to="https://ieeexplore.ieee.org/Xplore/home.jsp" className="block text-black underline hover:no-underline transition-all">
                                 IEEE Xplore
                             </Link>
-                            <Link to="#" className="block text-black underline hover:no-underline transition-all">
+                            <Link to="https://www.ieee.org/membership" className="block text-black underline hover:no-underline transition-all">
                                 IEEE Membership
                             </Link>
                         </div>
@@ -58,24 +57,19 @@ export default function Component() {
 
                             {/* Social Media Icons */}
                             <div className="flex gap-3 mt-6">
-                                <Link to="#" className="text-black hover:opacity-70 transition-opacity">
+                                <Link to="https://www.linkedin.com/company/ieeenu/" className="text-black hover:opacity-70 transition-opacity">
                                     <img src={linkedinIcon} alt={"LinkedIn Icon"} />
                                 </Link>
-                                <Link to="#" className="text-black hover:opacity-70 transition-opacity">
+                                <Link to="https://youtube.com/@nu_ieee" className="text-black hover:opacity-70 transition-opacity">
                                     <img src={youtubeIcon} alt={"YouTube Icon"} />
                                 </Link>
-                                <Link to="#" className="text-black hover:opacity-70 transition-opacity">
-                                    <img src={facebookIcon} alt={"Facebook Icon"} />
-                                </Link>
-                            </div>
-                            <div className="flex gap-3 mt-6">
-                                <Link to="#" className="text-black hover:opacity-70 transition-opacity">
+                                <Link to="https://www.instagram.com/nuieee_sb" className="text-black hover:opacity-70 transition-opacity">
                                     <img src={instagramIcon} alt={"Instagram Icon"} />
                                 </Link>
-                                <Link to="#" className="text-black hover:opacity-70 transition-opacity">
+                                <Link to="https://www.tiktok.com/@nu_ieee" className="text-black hover:opacity-70 transition-opacity">
                                     <img src={tiktokIcon} alt={"Tiktok Icon"} />
                                 </Link>
-                                <Link to="#" className="text-black hover:opacity-70 transition-opacity">
+                                <Link to="https://t.me/nu_ieee" className="text-black hover:opacity-70 transition-opacity">
                                     <img src={telegramIcon} alt={"Telegram Icon"} />
                                 </Link>
                             </div>
