@@ -12,7 +12,7 @@ const navLinks = [
 ];
 
 // one source of truth for the “frosted” look
-const GLASS = "backdrop-blur-md bg-black/80";
+const GLASS = "backdrop-blur-md bg-black/50";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -82,7 +82,7 @@ export default function Header() {
                 <li key={to}>
                   <Link
                     to={to}
-                    className="block px-3 py-3 text-white rounded-md hover:bg-black/10"
+                    className="block px-3 py-3 text-white rounded-md hover:bg-black/80"
                     onClick={() => setOpen(false)}
                   >
                     {label}
