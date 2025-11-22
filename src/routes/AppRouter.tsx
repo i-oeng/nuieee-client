@@ -9,6 +9,7 @@ import AdminEventsPage from "../pages/admin/AdminEventsPage.tsx";
 import AddNewEventPage from "../pages/admin/AddNewEventPage.tsx";
 import EventDetailPage from "../pages/event/EventDetailPage.tsx";
 import EventsListPage from "../pages/event/EventsListPage.tsx";
+import AboutUsPage from "../pages/aboutpage/AboutUsPage.tsx";
 
 export const AppRouter = () => {
     return (
@@ -24,6 +25,7 @@ export const AppRouter = () => {
                 <Route path="/admin/hackathon" element={ <HackathonAdminPage />} />
                 <Route path="/events" element={<EventsListPage />} />
                 <Route path="/events/:id" element={<EventDetailPage />} />
+                <Route path="/about" element={<AboutUsPage/>} />
             </Routes>
         </BrowserRouter>
     )

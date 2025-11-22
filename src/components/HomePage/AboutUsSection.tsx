@@ -15,7 +15,7 @@
                         fields. As part of the global IEEE network, we aim to connect students with industry leaders and
                         provide opportunities for hands-on learning.
                     </p>
-
+        
                     <br />
 
                     <p className="text-[clamp(18px,2.5vw,30px)] font-inter font-semibold leading-[1.2] text-white">

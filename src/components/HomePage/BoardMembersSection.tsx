@@ -25,9 +25,10 @@ const boardMembers: BoardMember[] = [
         image: amirPhotoLink,
     },
     {
-        name: "Aldiyar Zhetkeyev",
-        role: "hr head",
-        image: aldiyarPhotoLink,
+        name: "Aidana Alkenova",
+        role: "vice-president",
+        image: aidanaPhotoLink,
+
     },
     {
         name: "Altair Ibrayev",
@@ -35,9 +36,10 @@ const boardMembers: BoardMember[] = [
         image: altairPhotoLink,
     },
     {
-        name: "Aidana Alkenova",
-        role: "vice-president",
-        image: aidanaPhotoLink,
+        name: "Aldiyar Zhetkeyev",
+        role: "hr head",
+        image: aldiyarPhotoLink,
+
     },
     {
         name: "Sabina Sairangazyyeva",
