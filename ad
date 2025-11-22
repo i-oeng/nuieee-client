@@ -1,0 +1,411 @@
+[33mcommit 02547bc32a6e17ae7561d43fb3ccb7a6295f8887[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/my-new-change[m[33m)[m
+Author: i-eong <ikosymbaev@gmail.com>
+Date:   Sat Nov 22 19:22:02 2025 +0500
+
+    Add X feature / Fix Y bug
+
+[33mcommit da19a0ca26af57a0662af08b64d7136feccc2d5f[m[33m ([m[1;32mmaster[m[33m)[m
+Author: i-eong <ikosymbaev@gmail.com>
+Date:   Sat Nov 22 19:16:58 2025 +0500
+
+    Create About us page
+
+[33mcommit 4751852d79b685503a73605b5bb3b96380cb0aac[m
+Merge: 20f043b bf14784
+Author: Alinur Seisekov <129955860+wstoccob@users.noreply.github.com>
+Date:   Tue Oct 21 13:51:44 2025 +0500
+
+    Merge pull request #12 from wstoccob/fix/hero-section
+    
+    Fixed disappearing header on mobile
+
+[33mcommit bf14784d5075507a10544ad8413ff785fe64fe51[m
+Author: canadian <daulet.issayev@nu.edu.kz>
+Date:   Tue Oct 21 00:03:22 2025 +0500
+
+    Fixed disappearing header on mobile
+
+[33mcommit 20f043baba716ede30660f52596562619a359043[m
+Merge: f796fbc 81cdf13
+Author: Alinur Seisekov <129955860+wstoccob@users.noreply.github.com>
+Date:   Mon Oct 20 15:12:20 2025 +0500
+
+    Merge pull request #7 from wstoccob/fix/hero-section
+    
+    fixed horizontal scroll bar that was caused by w-screen in BigTextSec…
+
+[33mcommit 81cdf1314b452791256388be8082669fa540076c[m
+Author: canadian <daulet.issayev@nu.edu.kz>
+Date:   Sun Oct 19 20:15:37 2025 +0500
+
+    fixed horizontal scroll bar that was caused by w-screen in BigTextSection
+
+[33mcommit f796fbc77f7c2dcca0cb98736bb5586afe0a3fd1[m
+Merge: 8f3d570 629edea
+Author: Alinur Seisekov <129955860+wstoccob@users.noreply.github.com>
+Date:   Sat Oct 18 14:25:30 2025 +0500
+
+    Merge pull request #6 from wstoccob/fix/hero-section
+    
+    Fix mobile text alignment in HeroSection
+
+[33mcommit 629edea3af26b9a5aa3ec18947e4f8e8598cdf0d[m
+Author: Dias Seidakhmetov <72438624+sdydxsm@users.noreply.github.com>
+Date:   Sat Oct 18 14:09:19 2025 +0500
+
+    Fix mobile text alignment in HeroSection
+
+[33mcommit 8f3d57046c2ab4139b2fa7c7ff4f150ed3643dd6[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Oct 17 15:29:24 2025 +0500
+
+    Remove hackathon banner
+
+[33mcommit 399c21fb1a8ea558ea462855ae6e234e7d14471a[m
+Merge: 192bdaa 2ff92e4
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Oct 17 12:29:36 2025 +0500
+
+    Resolve conflict
+
+[33mcommit 192bdaa8a105db583238248c69e23fa8e49205d0[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Oct 17 12:26:15 2025 +0500
+
+    Update HomePage with last 5 events
+
+[33mcommit 2cafc5f8bdfefb78114454bf9eda12afdbd388d0[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Oct 17 12:15:26 2025 +0500
+
+    Add /events page
+
+[33mcommit 3a4a0aa1c1755876447ac29571807c6d38582264[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Oct 17 12:08:06 2025 +0500
+
+    Update front-end
+
+[33mcommit b942ceb0257962c3552b4e0b42cbcaffe6c150ac[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Oct 17 01:12:00 2025 +0500
+
+    Create events pages
+
+[33mcommit 2ff92e4d71e1342761bd1230df92fe2bb52128fc[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Oct 17 01:12:00 2025 +0500
+
+    Create events pages
+
+[33mcommit 6ac727ee6a52d202cb39276f17a6fe53c3b55376[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Thu Oct 16 23:44:56 2025 +0500
+
+    Remove redundant lines
+
+[33mcommit cdbbd437788cadc92e70be5fe28fc09a6fb32c4a[m
+Merge: 471a880 6c5db89
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Thu Oct 16 23:43:23 2025 +0500
+
+    Merge branch 'develop'
+
+[33mcommit 471a8806463904984947d1ff7147081c259512b5[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Thu Oct 16 23:42:02 2025 +0500
+
+    Add Hackathon
+
+[33mcommit 6c5db891f4ec42696b7c401b9d0171e9f202dc96[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sun Aug 17 14:21:38 2025 +0500
+
+    Shorten import
+
+[33mcommit 475c88fcb560f03b6d571c3f8b1ba98089f7a340[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sun Aug 17 14:15:08 2025 +0500
+
+    Add Hackathon Registration Page
+
+[33mcommit e8111d9f633596f51348e1cf2eddd9b67be7c50e[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sun Aug 17 13:42:48 2025 +0500
+
+    Separate tickers
+
+[33mcommit cafb799d0b6514e226f869af5350ad9159b015c6[m
+Merge: 04cebf0 2393054
+Author: Alinur Seisekov <129955860+wstoccob@users.noreply.github.com>
+Date:   Fri Aug 8 15:51:09 2025 +0500
+
+    Merge pull request #3 from wstoccob/develop
+    
+    Update packages
+
+[33mcommit 2393054e0f0b78b9ae0b64a12a247b66639b1266[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 8 15:32:18 2025 +0500
+
+    Update packages
+
+[33mcommit 04cebf0ce6a6c3c7c302172abaa3fc42159b372e[m
+Merge: e2db0de 1629f26
+Author: Alinur Seisekov <129955860+wstoccob@users.noreply.github.com>
+Date:   Fri Aug 8 15:16:40 2025 +0500
+
+    Merge pull request #2 from wstoccob/develop
+    
+    Update MainPage
+
+[33mcommit 1629f2679c7169a4522a0466e8b77c30113a520f[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 8 15:16:16 2025 +0500
+
+    Update BigTextSection.tsx
+
+[33mcommit 2de0821ae802cbcddf07dfb56fbee64897ad23f9[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 8 15:04:16 2025 +0500
+
+    Add animation to BigTextSection.tsx
+
+[33mcommit f39d776535566cf0dbe6f5189814c8b29ef88a3c[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 8 14:59:47 2025 +0500
+
+    Change Hero Section
+
+[33mcommit 1d86e4fd3ea19f1a3d2ffe38fe563299b21ceffe[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 1 17:05:44 2025 +0500
+
+    Update LoginPage
+
+[33mcommit fc009e7d18316cc27ef706efd44123793536a11e[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 1 02:09:54 2025 +0500
+
+    Add AdminPage
+
+[33mcommit e2db0de798ac5dd636907021d90d9f6e7eebbca4[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 1 01:33:28 2025 +0500
+
+    Update vercel.json encoding
+
+[33mcommit 34f52ad287ea0edf0366d44c1df2dc98a7a52b85[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 1 01:30:55 2025 +0500
+
+    Update vercel.json
+
+[33mcommit b12f0c65ce67f5ccdbdeaf8004f6bd7b4aec72a5[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 1 01:27:18 2025 +0500
+
+    Add rewrites for Vercel to use React routing manager
+
+[33mcommit 4bd65e1442b97233500764a0a016560cf7dd0095[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 1 00:48:15 2025 +0500
+
+    Add LoginPage and SuperAdminPage
+
+[33mcommit 2f91f9bc77b59a5079f605e90003231e2ba10e0f[m
+Merge: 0ab1b57 005e85f
+Author: Alinur Seisekov <129955860+wstoccob@users.noreply.github.com>
+Date:   Fri Aug 1 00:40:04 2025 +0500
+
+    Merge pull request #1 from wstoccob/develop
+    
+    Add HomePage
+
+[33mcommit 005e85f32e2f120704664fea5a16b8afcfbe013b[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 1 00:38:37 2025 +0500
+
+    Fix “no-explicit-any” ESLint Error
+
+[33mcommit e6b9863c17dde80de3c65780765549d61c2a8ab8[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 1 00:35:30 2025 +0500
+
+    Delete unnecessary assets
+
+[33mcommit 0bc375b1ffb0d932aa0c4a2e3269e8162ec05f74[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Fri Aug 1 00:33:39 2025 +0500
+
+    Add Board Members Section
+
+[33mcommit c2414d91e73e3f0948faadcc83a354a2e6411f46[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Tue Jul 29 14:08:35 2025 +0500
+
+    Add React Slick library
+
+[33mcommit 04d91e2a75cc08ec738e4b9a97c66e9416acb573[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Tue Jul 29 13:01:26 2025 +0500
+
+    Update HomePage
+
+[33mcommit 24c814f530c826c799067d805cc33bd9f5c0f9d2[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Tue Jul 29 13:01:16 2025 +0500
+
+    Add Event Card and Events Section
+    
+    Needs API to fetch last or upcoming events from back-end
+
+[33mcommit 64eee771b0f53e1542e130fa4209def55d4f6abc[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Tue Jul 29 13:00:41 2025 +0500
+
+    Add About Us section
+
+[33mcommit 0a7feb10e3cf5416c163c69ae7f9087575c73a69[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Tue Jul 29 13:00:25 2025 +0500
+
+    Add small blue ieee icon
+
+[33mcommit c43f0740f9a2a66c578bfe4e289bc91a694b2da4[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Tue Jul 29 13:00:10 2025 +0500
+
+    Add custom text-color class
+
+[33mcommit cfa6c764a26d9f2d552e2d106285343b2eeb1db6[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Tue Jul 29 12:59:55 2025 +0500
+
+    Add Event DTO for the HomePage
+
+[33mcommit ad389601d95b3d529149a7950c8704f1cfd74648[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Tue Jul 29 12:02:03 2025 +0500
+
+    Add margin bottom
+
+[33mcommit cdf4cb168e8fb4d0357d024a5a462fae5711cd2e[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Mon Jul 28 14:32:36 2025 +0500
+
+    Update HomePage.tsx
+
+[33mcommit a2740f4a59ea8953cc9cd925ced8496e3bcc8c2a[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Mon Jul 28 14:31:56 2025 +0500
+
+    Add AnnouncementTicker.tsx
+
+[33mcommit 4fc3b0dff403c532569ac47cd29d30f4d90ff34e[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Mon Jul 28 14:16:54 2025 +0500
+
+    Update axios to the next version
+
+[33mcommit 823f6575a39ceaea59feae3a697938a113722805[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Mon Jul 28 14:15:47 2025 +0500
+
+    Add missing package
+
+[33mcommit 3a880c0a4346c6dec8167f59fd21d107a9e152e1[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Mon Jul 28 14:14:36 2025 +0500
+
+    Update HomePage
+
+[33mcommit ea128b1bb200cb431ec9b25456c36a5b57c7f643[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Mon Jul 28 14:14:23 2025 +0500
+
+    Update index.html and index.html
+
+[33mcommit 6338d88213bf7f0d94579939bf36a75b5ba725f0[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Mon Jul 28 14:14:07 2025 +0500
+
+    Add packages
+
+[33mcommit 74ec016c78c865b52390a8cf0c33c4df8f29ad0a[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Mon Jul 28 14:13:50 2025 +0500
+
+    Update Header and Footer
+
+[33mcommit bca444343657e5efdddbd9786328f1b2e5404751[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Mon Jul 28 14:13:27 2025 +0500
+
+    Add assets
+
+[33mcommit a189d5aab84f73b18a78d613fb2907cfec013c86[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sat Jul 12 17:44:44 2025 +0500
+
+    Change background color
+
+[33mcommit 62547a24de62d73cf849b6d3f2f3b7eb70a2694c[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sat Jul 12 17:43:34 2025 +0500
+
+    Add Layout
+
+[33mcommit 8319f9b4d48d7e95df602b67a691e0f6aacc9921[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sat Jul 12 17:42:21 2025 +0500
+
+    Add Footer
+
+[33mcommit 7e458c2e5ee46624303a267dbbaab895e33dd8b0[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sat Jul 12 17:42:14 2025 +0500
+
+    Add Header
+
+[33mcommit 94fb1679f8e50c65974113b868f46350091a6ef3[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sat Jul 12 17:41:10 2025 +0500
+
+    Add User Api
+
+[33mcommit 3e995e38c064cd560cda3fa668e89385ae93d5e9[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sat Jul 12 17:40:42 2025 +0500
+
+    Fix wrong line
+
+[33mcommit 9c206152eb82a04c4436c1071d3e29299fa1c8c4[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sat Jul 12 17:37:53 2025 +0500
+
+    Add Auth Api
+
+[33mcommit 7c6d6d28cce6188a06f9d49970d6fd4c382b38c9[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sat Jul 12 17:37:40 2025 +0500
+
+    Add App router
+
+[33mcommit 1f25480b9ea8cff9fb5c72f3c23d6a2e3896fd81[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sat Jul 12 17:37:33 2025 +0500
+
+    Add Axios instance
+
+[33mcommit 09a90a92cad4f933f853e3b9c5f1b8b7b186efb5[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sat Jul 12 17:36:16 2025 +0500
+
+    Edit default files
+
+[33mcommit 0ab1b5786da4039c2f0130e2ae66f19eef4889f5[m
+Author: Alinur Seisekov <alinur.seysekov@gmail.com>
+Date:   Sun Jul 6 18:00:04 2025 +0500
+
+    Initial commit
